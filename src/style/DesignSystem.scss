@@ -1,0 +1,54 @@
+// DesignSystem.scss
+
+// Typography
+$font-family: 'Mazzard, -apple-system, Roboto, Helvetica, sans-serif';
+
+h1, h2, h3 {
+  font-family: $font-family;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.125rem;
+}
+
+p, a {
+  font-family: $font-family;
+  font-weight: normal;
+  font-size: 0.875rem;
+}
+
+// Colors
+$primary-text: black;
+$secondary-text: #00A055;
+$background: white;
+$button-color: rgba(228,71,68,1);
+
+// Components
+
+// Button
+.btn {
+  background-color: $button-color;
+  color: white;
+  border-radius: 1.5em;
+}
+
+// Card
+.card {
+  background-color: #f9f9f9;
+  border: 0.0625rem solid #ccc;
+}
+
+// Navbar
+.navbar {
+  background-color: $background;
+  color: $primary-text;
+}

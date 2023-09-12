@@ -1,0 +1,33 @@
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+.navbar-item {
+  cursor: pointer;
+  padding-right: 1.36rem;
+  font-family: 'Mazzard', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  transition: font-size 0.3s ease, font-weight 0.3s ease;
+}
+.navbar-item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar-item:hover {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar {
+    position: static;
+    flex-direction:row;
+    align-items: center;
+  }
+  .nav-item {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,52 @@
+/* Logo.css */
+
+.logo-image {
+  width: 4.875rem;
+  height: 4.64081rem;
+  flex-shrink: 0;
+  position: absolute;
+  left: 1.31rem;
+  top: 0.69rem;
+}
+
+.logo-text,
+.logo-dot {
+  font-family: 'Mazzard', sans-serif;
+  font-size: 1.68688rem;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 0.00844rem;
+  text-transform: lowercase;
+  flex-shrink: 0;
+  position: absolute;
+  left: 5.62rem;
+  top: 1.81rem;
+}
+
+.logo-text {
+  width: 6.125rem;
+  height: 2rem;
+  color: #2E2D2B;
+}
+
+.logo-dot {
+  color: #F62527;
+  left: calc(5.62rem + 6.125rem); /* Added this line */
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  .logo-image {
+    width: 5.875rem;
+    height: 5.64081rem;
+  }
+
+  .logo-text {
+    font-size: 2rem;
+    width: 7.125rem;
+  }
+
+  .logo-dot {
+    left: calc(5.62rem + 6.4rem); /* Added this line */
+  }
+}

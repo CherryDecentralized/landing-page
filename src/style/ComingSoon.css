@@ -1,0 +1,69 @@
+.container {
+    display: flex;
+}
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -100;
+  }
+  
+  .background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    object-fit: cover;
+    opacity: 1;
+  }
+  
+  .logo {
+    text-align: center;
+    position:fixed;
+    top: 29%;
+    left: 44%;
+  }
+  .header {
+    color:white;
+    font-family: Mazzard;
+    font-size: 2.9rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    position:fixed;
+    top: 39%;
+    width:75%;
+    left: 13%;
+  }
+  .textback {
+    position:absolute;
+    z-index: -93;
+    border-radius: 2.5rem;
+    background-color: white;
+    top: 40%;
+    width:75%;
+    left: 13%;
+    opacity: 0.6;
+  }
+  .comingsoon{
+    color:white;
+    font-family: Mazzard;
+    font-size: 3.3rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
+    position:fixed;
+    top: 55%;
+    width:75%;
+    left: 13%;
+  }

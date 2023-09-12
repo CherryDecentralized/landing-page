@@ -1,0 +1,62 @@
+/* Headline.css */
+.headline {
+}
+.headline-text {
+  position: absolute;
+  top:6.86rem;
+  left:20.12rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--text-color);
+  opacity: 0.6;
+  color: #000;
+  font-family: Mazzard;
+  font-size: 0.83688rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.6;
+}
+.networks {
+  opacity: 0.6;
+  color: #000;
+  font-family: Mazzard;
+  font-size: 0.96188rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.headline-image{
+  position: absolute;
+  width: 7.875rem;
+  height: 3.5rem;
+  z-index: -1;
+  top:8.9rem;
+  left:18.2rem; 
+}
+.headline-caption {
+  position: absolute;
+  top:8.67rem;
+  left:19.12rem;
+  font-weight: var(--font-weight-black);
+  letter-spacing: var(--letter-spacing-small);
+  text-transform: lowercase;
+  color: var(--text-color);
+  width: 76.8125rem;
+  height: 3.5625rem;
+  color: #000;
+  font-family: Cabinet Grotesk Variable;
+  font-size: 2.73875rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 0.01369rem;
+  text-transform: lowercase;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  .headline {
+    gap: var(--gap-medium);
+    font-size: var(--font-size-medium);
+  }
+}

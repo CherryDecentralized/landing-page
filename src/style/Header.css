@@ -1,0 +1,60 @@
+.header-container {
+  display: flex;
+  flex-direction: row;
+}
+.header-logo {
+  position: absolute;
+  left: 1.31rem;
+  top: 0.69rem;
+}
+
+.header-navbar {
+  position: absolute;
+  left: 45.25rem;
+  top: 2.90rem;
+}
+
+.header-gofundme {
+  position: absolute;
+  right: 1.44rem;
+  top: 2.2rem;
+}
+.gofundme-button {
+  width: 9.75rem;
+  height: 2.14194rem;
+  flex-shrink: 0;
+  background-color: transparent; /* Assuming you don't want a background color */
+  border: none; /* Removing default button border */
+  cursor: pointer; /* Hand cursor on hover for better UX */
+
+  /* Typography */
+  color: #00A055;
+  font-family: 'Sarabun', sans-serif; /* Ensure you've imported or linked the Sarabun font */
+  font-size: 0.89188rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  border: 1px solid #00A055; /* Adding border */
+  border-radius: 2.5rem; /* Adding rounded corners */
+}
+
+/* Optional: Add hover and active states for better UX */
+.gofundme-button:hover {
+  opacity: 0.8; /* Slight fade on hover */
+}
+
+.gofundme-button:active {
+  opacity: 0.7; /* Slight fade when button is pressed */
+}
+/* Responsive styles */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: row;
+  }
+  .header-logo,
+  .header-navbar,
+  .header-gofundme {
+    position: relative;
+  }
+}

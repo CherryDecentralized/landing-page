@@ -1,0 +1,22 @@
+
+.weather-component {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: var(--margin-large);
+  position: absolute;
+  top: 14.4rem;
+  left:2.0rem;
+}
+
+@media (min-width: 768px) {
+  .weather-component {
+    height: calc(var(--margin-large) * 2);
+  }
+}
+
+@media (min-width: 1024px) {
+  .weather-component {
+    height: calc(var(--margin-large) * 3);
+  }
+}
