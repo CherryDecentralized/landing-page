@@ -1,13 +1,16 @@
 import React from 'react';
+import Header from './components/Header'
+import ParallaxView from './components/ParallaxView';
 import './style/App.css';
-import HeroSection from './components/HeroSection';
-import ComingSoon from './components/ComingSoon';
-import Logo from './components/Logo';
+import './style/IconScroll.css';
 
 function App() {
   return (
-    // <HeroSection />
-    <ComingSoon />
+    <>
+      <Header/>
+      <ParallaxView></ParallaxView>
+      <div class="icon-scroll"></div>
+    </>
   );
 }
 export default App;
