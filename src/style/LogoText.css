@@ -1,0 +1,27 @@
+.logo-text-container {
+    font-size: 2.24938rem;
+    width: 4.76305rem;
+    height: 2.81134rem;
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+}
+.logo-text-line,
+.logo-dot-line {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Mazzard H', sans-serif;
+    font-size: 2.24938rem;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.00844rem;
+    text-transform: lowercase;
+}
+
+.logo-text-line {
+  color: #2E2D2B;
+}
+
+.logo-dot-line {
+  color: #F62527;
+}

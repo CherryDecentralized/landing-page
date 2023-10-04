@@ -1,0 +1,26 @@
+.parallax-container {
+    height: 222vh; /* Adjusted for scrolling */
+    overflow: hidden;
+    position: relative;
+}
+
+.background {
+    background-color: white;
+    background-image: url('../assets/Headline/background\ head.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 111vh;
+    width: 100%;
+    position: fixed; /* Fixed position */
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.headline-component, .city-component {
+    height: 88vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
