@@ -69,7 +69,7 @@
 .subheadline{
   color: #000;
   display: table-cell;
-  font-family: Mazzard;
+  font-family: 'Mazzard M', sans-serif;
   font-size: 3.62438rem;
   font-style: normal;
   font-weight: 400;
@@ -112,7 +112,7 @@
   width: 47.32231rem;
   height: 2.4375rem;
   color: #000;
-  font-family: Mazzard;
+  font-family: 'Mazzard M', sans-serif;
   font-size: 1.87438rem;
   font-style: normal;
   font-weight: 500;
@@ -123,7 +123,7 @@
   width: 55.1875rem;
   height: 2.5625rem;
   color: #000;
-  font-family: Mazzard;
+  font-family: 'Mazzard M', sans-serif;
   font-size: 1.87438rem;
   font-style: normal;
   font-weight: 500;
@@ -140,7 +140,7 @@
   width: 33.25rem;
   height: 2.5rem;
   color: #000;
-  font-family: Mazzard;
+  font-family: 'Mazzard M', sans-serif;
   font-size: 1.87438rem;
   font-style: normal;
   font-weight: 500;
