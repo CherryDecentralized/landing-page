@@ -1,13 +1,15 @@
 [build]
   publish = "build/"
   command = "npm run build"
-  [[headers]]
+
+[[headers]]
   for = "/*.woff"
   [headers.values]
     Access-Control-Allow-Origin = "*"
     Content-Type = "application/font-woff"
-    for = "/*.ttf"
+
+[[headers]]
+  for = "/*.ttf"
   [headers.values]
     Access-Control-Allow-Origin = "*"
     Content-Type = "application/font-ttf"
-  
