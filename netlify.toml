@@ -3,13 +3,13 @@
   command = "npm run build"
 
 [[headers]]
-  for = "/*.woff"
+  for = "/src/fonts/*.woff"
   [headers.values]
     Access-Control-Allow-Origin = "*"
     Content-Type = "application/font-woff"
 
 [[headers]]
-  for = "/*.ttf"
+  for = "/src/fonts/*.ttf"
   [headers.values]
     Access-Control-Allow-Origin = "*"
     Content-Type = "application/font-ttf"
