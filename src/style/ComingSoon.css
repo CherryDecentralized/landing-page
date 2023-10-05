@@ -33,7 +33,7 @@
   }
   .header {
     color:white;
-    font-family: Mazzard;
+    font-family: 'Mazzard M', sans-serif;
     font-size: 2.9rem;
     font-style: normal;
     font-weight: 600;
@@ -56,7 +56,7 @@
   }
   .comingsoon{
     color:white;
-    font-family: Mazzard;
+    font-family: 'Mazzard M', sans-serif;
     font-size: 3.3rem;
     font-style: normal;
     font-weight: 900;
