@@ -7,11 +7,11 @@
     cache-control = '''
     public,
     max-age=31536000'''
-  for = "/*.woff"
+  for = "/src/fonts/*.woff"
   [headers.values]
     Access-Control-Allow-Origin = "*"
     Content-Type = "application/font-woff"
-  for = "/*.ttf"
+  for = "/src/fonts/*.ttf"
   [headers.values]
     Access-Control-Allow-Origin = "*"
     Content-Type = "application/font-ttf"
